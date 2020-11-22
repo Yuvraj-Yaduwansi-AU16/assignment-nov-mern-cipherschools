@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+background-image: url("heath.jpg");
+
+}
+
+body#body{
+    background-image: url("./p3.jpg");
+    
+    }
+    
+header#header{
+    color: aqua;
+    /* margin: 100px auto; */
+    width: 500px;
+  /* border: 15px solid gray; */
+  padding: 10px;
+  margin: 20px;
+    margin-top: 150px;
+  margin-left: 500px;
+    text-align: center;
+}
+
+h1{
+font-size: 50px;
+color:aqua;
+}
+
+h1#movies_featured_navbar{
+    color:aqua;
+}
+
+h1#character_traits_navbar{
+    color:aqua;
+}
+
+h1#Personal_Summary_navbar{
+    color:aqua;
+}
+
+h1#Professional_Summary_navbar{
+    color:aqua;
+}
+h2#About_Me_navbar{
+    color:aqua;
+}
+p.Heading{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    display: inline;
+    font-size: 100px;
+color:green
+}
+
+ol#character_traits_text{
+color: brown;
+font-size: 35px;
+}
+
+ol#movies_featured_text{
+
+    color:brown;
+    font-size: 35px;
+}
+p#Personal_Summary_text{
+    color:brown;
+    font-size: 35px;
+}
+p#Professional_Summary_text{
+    color:brown;
+    font-size: 35px;
+}
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+     background-color: rgba(0, 0, 0, 0.315);
+
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px 40px;
+    color:aqua;
+    text-decoration: underline;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-size: 22px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: red  }
+  
+  /* Current/active navbar link */
+  /* .active {
+    background-color: #4CAF50;
+  } */
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+  p#about_me_footer{
+    position: absolute;
+    display: inline;
+      color: brown;
+      font-size: 20px;
+  }
